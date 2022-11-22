@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+
+}
+h1{
+    width:100%;
+    height: 500px;
+    background: url(computer.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+nav{
+    display: inline-block;
+}
+nav #signup{
+    text-decoration: none;
+    color: grey;
+    margin-left:820px;
+}
+nav #signup:hover{
+    background-color:lightslategray;
+    color: black;  
+}
+a{
+    text-decoration: none;
+    color: grey;
+    margin-left:30px;
+    padding: 5px;
+}
+a:hover{
+    background-color:lightslategray;
+    color: black;
+}
+header{
+    color:black;
+    background-color: gray;
+    font-size:50px;
+    text-align: center;
+    padding:15px;
+      margin-top: 0;
+}
+p{
+    color: grey;
+    font-size: 20px;
+    margin-top:10px;
+    text-align: justify;
+}
+h2{    color:black;
+    background-color: gray;
+    font-size:40px;
+    text-align: center;
+    padding: 10px;
+      margin-top: 0;
+
+}
+h3{
+    color: grey;
+    font-size:20px;
+    text-align: justify;
+    font-weight: normal;
+    margin-top: 0;
+}
+.course{
+    font-size: 25px;
+    line-height:50px;
+    color: beige;
+}
+.course a:hover{
+color: black;
+background-color: blanchedalmond;
+}
+footer h4{
+    color:black;
+    font-size:40px;
+    text-align: center;
+    border: 1px solid grey;
+    padding:1px;
+    background-color:grey;
+}
+#about nav{
+    display:inline-block;
+}
+h5{
+    font-size:20px;
+    color: gray;
+    margin-top: 0;
+    text-align: center;
+}
+#about p{
+    font-size:15px;
+    text-align:left;
+    padding-right: 18px;
+    border-right: 1px solid rgb(29, 28, 28);
+    padding-left: 15px;
+    padding-top: 0;
+
+}
+#contact h4{
+    color: black;
+    font-size:40px;
+    text-align: center;
+    border: 1px solid grey;
+    padding:1px;
+    background-color:grey;
+}
+fieldset{
+    background-color: gray;
+    width: 400px;
+    height:400px;
+    margin-left:2%;
+    color: black;
+    text-align: center;
+}
+     #contactform{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+
+}
+#button,#button a{
+    background-color: rgb(49, 119, 49);
+    border: none;
+    color: aliceblue;
+    padding: 10px;
+    width:400;
+    border-radius:10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#button:hover{
+    background-color: green;
+}
+#contact{
+    padding: 10px;
+}
+#top{
+    border: 1px solid black;
+    padding: 2px;
+    background-color: grey;
+    text-decoration: none;
+    color: black;
+    float: right;
+}
